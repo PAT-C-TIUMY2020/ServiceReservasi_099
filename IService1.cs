@@ -37,7 +37,7 @@ namespace ServiceReservasi
         public string DeskripsiSingkat { get; set; }
     }
 
-    [DataContract]
+    [DataContract] 
     public class DetailLokasi
     {
         [DataMember]
